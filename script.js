@@ -105,10 +105,3 @@ function deleteTask() {
   const listItem = this.parentElement; // get parent (li)
   listItem.remove();
 }
-
-// const h1 = document.getElementsByTagName("h1")[0];
-// console.log(h1.classList);
-// h1.classList.add("header");
-// console.log(h1.classList);
-// h1.classList.remove("test");
-// console.log(h1.classList);
